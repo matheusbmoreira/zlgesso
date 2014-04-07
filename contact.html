@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contate-nos - Zlgesso Construções a Seco</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<a href="index.html" class="logo"><img src="images/logo_zlgesso.png" alt=""></a>
+			<ul>
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="gallery.html">galeria</a>
+				</li>
+				<li>
+					<a href="about.html">quem somos</a>
+				</li>
+				<li class="selected">
+					<a href="contact.html">contato</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<h2 style="Color:#FF8C00" >Contato</h2>
+		<div class="contact">
+			<p>Preencha o formulário de contato abaixo, e logo após clique em enviar. Em breve entraremos em contato.</p>
+			<p>&nbsp;</p>
+			<form name="contato" method="post" action="contato.php">
+            <table width="900" border="0">
+  <tr>
+    <td width="157"><p>Nome completo:</p></td>
+    <td width="727"><label for="nome"></label>
+      <input name="nome" type="text" id="nome" size="50">
+    </td>
+    </tr>
+  <tr>
+    <td><p>Telefone de contato:</p></td>
+    <td><label for="telefone"></label>
+      <input name="telefone" type="text" id="telefone" size="16"></td>
+    </tr>
+  <tr>
+    <td><p>E-mail:</p></td>
+    <td><label for="email"></label>
+      <input name="email" type="text" id="email" size="50"></td>
+    </tr>
+   <tr>
+    <td width="157"><p>Melhor horário para contato:</p></td>
+    <td width="727"><label for="horario"></label>
+      <select name="horario" id="horario">
+        <option value="Durante a manha">Manhã (09:00 às 11:00)</option>
+        <option value="Durante a tarde">Tarde (13:00 às 17:00)</option>
+      </select></td>
+      </tr>
+	  <tr>
+	    <td><p>Mensagem</p></td>
+	    <td><label for="mensagem"></label>
+	      <textarea name="mensagem" cols="60" rows="10" id="mensagem"></textarea></td>
+      </tr>
+   <tr>
+	    <td><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+	    <td><input type="reset" name="reset" id="reset" value="Limpar"></td>
+     </tr>
+	  </table>
+       </form>
+       <!--Mascaras do formulário-->
+<script>
+jQuery(function($){
+       $("#telefone").mask("(99) 9999-9999");
+});
+</script>
+		<!--Fim Máscaras-->
+		  <p>&nbsp;</p>
+			<h4>Ou se preferir, entre em contato conosco:</h4>
+			<span>Celular: (31) 9783-8124</span> <span>Telefone: (31) 3588-5536</span> <span>Rua Agenor de Paula Estrela - Nº 262 - Bairro: Jaqueline - Cidade: Belo Horizonte - MG - Brasil</span>
+			<!--<ul>
+				<li>
+					Call toll-free: 877 000 0000
+				</li>
+				<li>
+					Call toll-free: 866 000 0000
+				</li>
+				<li>
+					Toll-free fax: 877 000 0000
+				</li>
+			</ul>-->
+			<h4>Atendimento</h4>
+			<span>Segunda a Sexta 8:00 às 17:00</span> <!--<span>Closed Saturday and Sunday</span>-->
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<ul class="contact">
+				<li>
+					<!-- mbmtech -->
+				</li>
+			</ul>
+			<ul class="connect">
+				<!--<li class="googleplus">
+					<a href="http://freewebsitetemplates.com/go/googleplus/">googleplus</a>
+				</li>-->
+				<li class="mail">
+					<a href="http://www.zlgesso.com.br/contact.html" target="_blank">mail</a>
+				</li>
+				<li class="facebook">
+					<a href="https://www.facebook.com/Zldesign1" target="_blank">facebook</a>
+				</li>
+				<li class="twitter">
+					<a href="https://twitter.com/" target="_blank">twitter</a>
+				</li>
+			</ul>
+		</div>
+		<p>
+			Copyright 2013 zldesign - Zldesign contruções a seco. Todos direitos reservados.
+		</p>
+	</div>
+</body>
+</html>
